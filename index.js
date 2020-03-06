@@ -19,10 +19,11 @@ console.log(map)
 const result = arr.filter(word => word.length > 0);
 console.log(result)
 
-//include
+//include(wont work for objects and functions)
 console.log(arr.includes(2));
 
 //indexOf(element,fromindex)
+//(wont work for objects and functions)
 console.log(arr.indexOf(1,0))
 
 //findIndex(gives the index value)
